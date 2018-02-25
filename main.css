@@ -1,0 +1,32 @@
+.column{
+    float:left;
+    height: 50px;
+    width: 30%;
+    background-color: red;
+}
+    /*Removed margins and paddings from the body and html elements*/
+    .container{
+    margin:0 0 0 0;
+    padding: 0;
+}
+
+@media(max-width: 991px){
+    .column{
+      background-color: blue;
+ }
+/* Make a section full-height*/
+    #one{
+         height:100px;
+         width:100%;
+     }
+
+
+}
+@media(max-width: 767px){
+    .column{
+        background-color: #000;
+        width: 100%;
+        margin: 10px 0;
+        
+    }
+}
